@@ -4,10 +4,7 @@ import {
 } from 'react-native';
 import { DrawerNavigator,StackNavigator,NavigationActions} from 'react-navigation';
 import HomePage from './containers/HomePage' 
-import welcome from './containers/welcome' 
 import Main from './containers/main'
-// import configStackNav from './configStackNav'
-// import {AppNavigator} from './stackNav'
 import CardStackStyleInterpolator from 'react-navigation/src/views/CardStack/CardStackStyleInterpolator';
 const TransitionConfiguration = () => ({//让页面水平向左进来
   screenInterpolator: (sceneProps) => {
